@@ -114,7 +114,7 @@ class iPlayerDownloader:
 
 if __name__ == '__main__':
     # The regular expression used to find the URLs for each episode
-    regex = re.compile(r'/iplayer/episode/[a-z0-9]+/inside-no-9-series-([0-9])-([0-9]+)-([a-zA-Z- ]+)')
+    regex = re.compile(r"/iplayer/episode/[a-z0-9]+/inside-no-9-series-([0-9])-([0-9]+)-([0-9a-zA-Z- ]+)")
 
     # The title of the series
     series_title = 'Inside No. 9'
